@@ -1,0 +1,18 @@
+{
+  "rules": {
+    "comma-dangle": 0,
+    "no-use-before-define": [2, "nofunc"]
+  },
+  "env": {
+    "es6": true,
+    "amd": false,
+    "browser": true,
+    "jasmine": false,
+    "mocha": false,
+    "node": true
+  },
+  "settings": {
+    "ecmascript": 6,
+    "jsx": true
+  }
+}
