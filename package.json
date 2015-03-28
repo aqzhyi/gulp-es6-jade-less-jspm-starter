@@ -1,7 +1,7 @@
 {
   "name": "gulp-babel-jade-less-starter",
   "version": "1.0.0",
-  "description": "An babeljs (ES6) starter project with gulp, jade, less tools.",
+  "description": "An ES6 (babeljs) starter project with gulp, jade, less tools.",
   "main": "index.js",
   "devDependencies": {
     "del": "^1.1.1",
