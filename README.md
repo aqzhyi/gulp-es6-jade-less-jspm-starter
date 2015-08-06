@@ -1,27 +1,34 @@
 ## ABOUT THIS
 
-- [Bower](http://bower.io/)
+- AngularJS
+- Angular-ui-router
+- Bootstrap@3
+- [jspm](http://jspm.io/)
 - ES6 by [Babel](https://babeljs.io/)
 - [Lesscss](http://lesscss.org/)
-- [Jade Template Engine](http://jade-lang.com/) for Frontend.
-- No more manual editing of your index.html. [gulp-inject](https://www.npmjs.com/package/gulp-inject)
-
-#### No more manual editing of your index.html
-
-Once bower has been install, uninstall package or your source files has been added, unlinked, the gulp watcher will trigger index.html to re-inject files which you need.
+- [Jade Template Engine](http://jade-lang.com/) for Frontend
+- [expressjs](http://expressjs.com/)
 
 ## USAGE
 
-Download zip.
+> Start server (gzip enable)
 
-`npm i && bower i`
+```sh
+# cli
+git clone git@github.com:Pleasurazy/gulp-es6-jade-less-jspm-starter.git
+mv gulp-es6-jade-less-jspm-starter your-project
+cd your-project
+npm install
+node server.js
+# NODE ENV is development
+# Server started at http://:::30000
+open http://localhost:30000
+```
 
-`npm run dev`
+> Frontend development
 
-Ok, Start develop!
-
-## PREVIEW
-
-![http://i.imgur.com/WCqYN8d.png](http://i.imgur.com/WCqYN8d.png)
-
-![http://i.imgur.com/jukoocX.png](http://i.imgur.com/jukoocX.png)
+```sh
+# cli
+npm run dev
+# now can edit any files where in ./src folder
+```

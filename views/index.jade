@@ -1,0 +1,30 @@
+doctype html
+html(lang="zh-cmn-Hant")
+  head
+    style.
+      [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak { display: none !important; }
+    meta(charset="utf-8")
+    title jspm starter
+    script(src="jspm_packages/system.js")
+    script(src="jspm.conf.js")
+    script.
+      System.import('dist/bootstrap');
+
+  body.ng-cloak
+    nav.navbar.navbar-default
+      .container-fluid
+        .navbar-header
+          button.navbar-toggle.collapsed(data-toggle="collapse" data-target="#navItems")
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand() Brand
+
+        .collapse.navbar-collapse#navItems
+          ul.nav.navbar-nav
+            li(ui-sref-active="active")
+              a(ui-sref="home") Home
+            li(ui-sref-active="active")
+              a(ui-sref="about") About
+
+    div(ui-view="")

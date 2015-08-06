@@ -1,0 +1,1 @@
+require('easy-web-server')()

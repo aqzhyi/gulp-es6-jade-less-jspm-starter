@@ -1,5 +1,10 @@
+# common
 .DS_Store
-dict
 bower_components
+dist
+jspm_packages
+
+# node
 node_modules
-npm-debug.log
+logs
+*log
